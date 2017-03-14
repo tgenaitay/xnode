@@ -65,21 +65,21 @@ title: Le Wagon 2-hour landing workshop
       &lt;h1&gt;We Help Startups & Entrepreneurs Create the Future...&lt;/h1&gt;
       &lt;p&gt;Xnode is also a place to learn to code...&lt;/p&gt;
 
+      &lt;img src="images/open.png" alt="picture description"&gt;
       &lt;h2&gt;Open seats&lt;/h2&gt;
       &lt;p&gt;A very, &lt;strong&gt;very&lt;/strong&gt; open space&lt;/p&gt;
-      &lt;img src="images/open.png" alt="picture description"&gt;
 
+      &lt;img src="images/meeting.png" alt="picture description"&gt;
       &lt;h2&gt;Meetings&lt;/h2&gt;
       &lt;p&gt;A meeting place &lt;strong&gt;for your business&lt;/strong&gt;&lt;/p&gt;
-      &lt;img src="images/meeting.png" alt="picture description"&gt;
 
+      &lt;img src="images/office.png" alt="picture description"&gt;
       &lt;h2&gt;Offices&lt;/h2&gt;
       &lt;p&gt;A workspace &lt;strong&gt;to rent&lt;/strong&gt; for your team&lt;/p&gt;
-      &lt;img src="images/office.png" alt="picture description"&gt;
 
+      &lt;img src="images/event.png" alt="picture description"&gt;
       &lt;h2&gt;Events&lt;/h2&gt;
       &lt;p>A cool space &lt;strong&gt;to run your events&lt;/strong&gt;&lt;/p&gt;
-      &lt;img src="images/event.png" alt="picture description"&gt;
 
       &lt;p&gt;This is a playground landing ©Le Wagon x Xnode&lt;/p&gt;
     &lt;/body&gt;
@@ -148,25 +148,30 @@ a:hover {
       &lt;h1&gt;We Help Startups & Entrepreneurs Create the Future...&lt;/h1&gt;
       &lt;p&gt;Xnode is also a place to learn to code...&lt;/p&gt;
     &lt;/div&gt;
+      &lt;img src="images/open.png" alt="picture description"&gt;
       &lt;h2&gt;Open seats&lt;/h2&gt;
       &lt;p&gt;A very, &lt;strong&gt;very&lt;/strong&gt; open space&lt;/p&gt;
-      &lt;img src="images/open.png" alt="picture description"&gt;
     &lt;div&gt;
+      &lt;img src="images/meeting.png" alt="picture description"&gt;
       &lt;h2&gt;Meetings&lt;/h2&gt;
       &lt;p&gt;A meeting place &lt;strong&gt;for your business&lt;/strong&gt;&lt;/p&gt;
-      &lt;img src="images/meeting.png" alt="picture description"&gt;
     &lt;/div&gt;
     &lt;div&gt;
+      &lt;img src="images/office.png" alt="picture description"&gt;
       &lt;h2&gt;Offices&lt;/h2&gt;
       &lt;p&gt;A workspace &lt;strong&gt;to rent&lt;/strong&gt; for your team&lt;/p&gt;
-      &lt;img src="images/office.png" alt="picture description"&gt;
     &lt;/div&gt;
     &lt;div&gt;
+      &lt;img src="images/event.png" alt="picture description"&gt;
       &lt;h2&gt;Events&lt;/h2&gt;
       &lt;p>A cool space &lt;strong&gt;to run your events&lt;/strong&gt;&lt;/p&gt;
-      &lt;img src="images/event.png" alt="picture description"&gt;
     &lt;/div&gt;
     &lt;div&gt;
+      &lt;form action=""&gt;
+        &lt;input type="text" placeholder="Email here"&gt;
+        &lt;input type="submit" value="Book a tour!"&gt;
+      &lt;/form&gt;
+
       &lt;p&gt;This is a playground landing ©Le Wagon x Xnode&lt;/p&gt;
     &lt;/div&gt;
 </code>
@@ -178,27 +183,65 @@ a:hover {
         <ul>
           <li>Name your header and footer with <code>id</code> like <code>&lt;div id="header"&gt;</code> and <code>&lt;div id="footer"&gt;</code></li>
           <li>Name your features with <code>class</code> like <code>&lt;div class="card"&gt;</code></li>
+          <li>Name your buttons with <code>class</code> like <code>class="btn"</code> and use the class <code>.input</code></li>
           <li>Then add this nice CSS code</li>
         </ul>
 <pre><code>
 #header{
   text-align: center;
-  background-image: url("images/shanghai.jpg");
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 50%), url("images/shanghai.jpg");
   background-size: cover;
   padding: 150px;
   color: white;
-  text-shadow: 1px 1px 5px black;
 }
 
 .card{
   padding: 50px;
   font-weight: lighter;
+  background-color: white;
+  text-align:center;
+  width:200px;
 }
 
 #footer{
-  padding: 30px;
+  padding: 50px;
   background: rgb(30, 30, 30);
   color: lightgrey;
+  text-align: center;
+  line-height: 2;
+}
+
+#footer ul {
+  padding-left:0;
+  list-style: none;
+}
+
+#footer li {
+  display: inline-block;
+  padding:0px 10px;
+}
+
+.input {
+  font-size: 18px;
+  height:50px;
+  padding:0px 15px;
+  background:white;
+  border:1px solid lightgray;
+  width:200px;
+  border-radius:3px;
+}
+
+.btn {
+  background:#D42C14;
+  color:white;
+  font-weight: bolder;
+  width:150px;
+  border:1px solid #AB2513;
+}
+
+.btn:hover {
+  background:#AB2513;
+  color:white;
 }
 </code></pre>
       </section>
