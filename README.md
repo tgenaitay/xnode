@@ -1,6 +1,6 @@
 ## Le Wagon Shanghai
 
-###HTML & CSS Workshop
+### HTML & CSS Workshop
 
 `Update: August 10`
 
